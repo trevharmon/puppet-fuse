@@ -1,3 +1,5 @@
+# Generic class for handling Fuse mount configuration
+
 define fuse::mount (
   Array[String]            $mount_options       = [ "nodev", "nosuid"],
   Boolean                  $default_permissions = false,
